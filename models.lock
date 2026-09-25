@@ -1,0 +1,29 @@
+{
+  "schema": "models.lock/v1",
+  "description": "Pinned model artifacts for the 'It Scans & Identifies' demo. Verify at startup; refuse on mismatch.",
+  "models": [
+    {
+      "path": "models/yolo11n.pt",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt",
+      "source": "ultralytics/assets@v8.3.0",
+      "model_version": "yolo11n",
+      "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+    },
+    {
+      "path": "models/yolo11s.pt",
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11s.pt",
+      "source": "ultralytics/assets@v8.3.0",
+      "model_version": "yolo11s",
+      "gpu_only": true,
+      "sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5"
+    },
+    {
+      "path": "models/buffalo_l.zip",
+      "download_url": "https://github.com/deepinsight/insightface/releases/download/v0.7/buffalo_l.zip",
+      "source": "deepinsight/insightface@v0.7",
+      "model_version": "buffalo_l",
+      "extract_to": "models/buffalo_l",
+      "sha256": "80ffe37d8a5940d59a7384c201a2a38d4741f2f3c51eef46ebb28218a7b0ca2f"
+    }
+  ]
+}

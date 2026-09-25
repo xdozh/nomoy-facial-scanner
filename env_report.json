@@ -1,0 +1,15 @@
+{
+  "os": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "processor": "arm",
+  "python": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "python_executable": "/Users/suya_mti/Desktop/Nomoy Facial Scanner/.venv/bin/python",
+  "cpu": "10 cores / 10 threads",
+  "gpu": "Apple GPU (CoreML)",
+  "onnxruntime_providers": [
+    "CoreMLExecutionProvider",
+    "AzureExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "onnxruntime_version": "1.30.0"
+}

@@ -1,0 +1,14 @@
+gallery:
+  alex:
+    display_name: Alex Synthetic
+    role: Enrolled volunteer
+  blair:
+    display_name: Blair Synthetic
+    role: Enrolled volunteer
+  casey:
+    display_name: Casey Synthetic
+    role: Enrolled volunteer
+match_threshold: 0.4
+face_min_size_px: 48
+embed_every_n_tracks: 1
+face_check_interval_frames: 15
